@@ -1,8 +1,8 @@
 package cs499;
 
-import cs499.model.Graph;
-import cs499.model.Obstacle;
-import cs499.model.Vertex;
+import cs499.models.Graph;
+import cs499.models.Obstacle;
+import cs499.models.Vertex;
 
 import java.util.ArrayList;
 
@@ -27,13 +27,16 @@ public class ShortestPathFinder {
 
     //loads obstacles from file, populates the arraylist 'obstacles'
     public void loadObstaclesFromFile(String filename) {
-        //...
+        throw new UnsupportedOperationException("Not Yet Implemented");
     }
 
-    //generates graph by analyzing source, dest, and obstacles
-    public void generateGraph() {
+
+        //generates graph by analyzing source, dest, and obstacles
+    public Graph generateGraph() {
         theGraph = new Graph();
-        //..
+        throw new UnsupportedOperationException("Not Yet Implemented");
+
+        //return theGraph;
     }
 
     public void setDest(Vertex dest) {

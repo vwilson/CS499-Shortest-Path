@@ -1,4 +1,4 @@
-package cs499.model;
+package cs499.models;
 
 import cs499.algorithms.Distance;
 

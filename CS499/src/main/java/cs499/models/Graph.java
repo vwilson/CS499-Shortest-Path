@@ -1,4 +1,6 @@
-package cs499.model;
+package cs499.models;
+
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -33,6 +35,6 @@ public class Graph {
     }
 
     public boolean isConnected(Vertex a, Vertex B) {
-        return false;
+        throw new NotImplementedException();
     }
 }

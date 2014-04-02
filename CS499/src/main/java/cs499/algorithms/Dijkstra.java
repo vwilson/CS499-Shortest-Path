@@ -1,8 +1,8 @@
 package cs499.algorithms;
 
-import cs499.model.Graph;
-import cs499.model.Path;
-import cs499.model.Vertex;
+import cs499.models.Graph;
+import cs499.models.Path;
+import cs499.models.Vertex;
 
 /**
  * author: vwilson
@@ -15,8 +15,8 @@ public class Dijkstra {
     public static Path shortestPath(Graph g, Vertex source, Vertex dest) {
         Path p = new Path();
 
-        //...
+        throw new UnsupportedOperationException("Not Yet Implemented");
 
-        return p;
+        //return p;
     }
 }

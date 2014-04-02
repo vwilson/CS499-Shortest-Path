@@ -1,7 +1,7 @@
 package cs499.algorithms;
 
-import cs499.model.Edge;
-import cs499.model.Vertex;
+import cs499.models.Edge;
+import cs499.models.Vertex;
 
 /**
  * author: vwilson
@@ -12,11 +12,11 @@ public class Distance {
 
     //returns the distance from a to b
     public static Double distanceFrom(Vertex a, Vertex b) {
-        return 42d;
+        throw new UnsupportedOperationException("Not Yet Implemented");
     }
 
     //returns the length of e
     public static Double lengthOf(Edge e) {
-        return 42d;
+        throw new UnsupportedOperationException("Not Yet Implemented");
     }
 }

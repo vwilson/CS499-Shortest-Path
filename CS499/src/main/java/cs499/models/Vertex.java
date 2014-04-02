@@ -1,4 +1,4 @@
-package cs499.model;
+package cs499.models;
 
 /**
  * author: vwilson
@@ -19,5 +19,13 @@ public class Vertex {
 
     public double getY() {
         return y;
+    }
+
+    @Override
+    public String toString() {
+        return "Vertex{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 }
