@@ -3,7 +3,7 @@ CS499-Shortest-Path
 
 Group Assignment for CS499, Blue Team
   
-This project is in Java 7, using Maven for build mgmt.  Created with IDEA IntelliJ 12U.
+This project is in Java 7, using Maven 2 for build mgmt.  Created with IDEA IntelliJ 12U.
 
 TODO:
 
