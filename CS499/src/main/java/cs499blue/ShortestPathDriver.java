@@ -1,9 +1,9 @@
-package cs499;
+package cs499blue;
 
-import cs499.algorithms.Dijkstra;
-import cs499.models.Graph;
-import cs499.models.Path;
-import cs499.models.Vertex;
+import cs499blue.algorithms.Dijkstra;
+import cs499blue.models.Graph;
+import cs499blue.models.Path;
+import cs499blue.models.Vertex;
 
 /**
  * author: vwilson
@@ -18,6 +18,7 @@ public class ShortestPathDriver {
 
         if (args.length < 2) {
             printUsage();
+            System.exit(1);
         }
 
         ShortestPathFinder shortestPathFinder = new ShortestPathFinder();
@@ -41,13 +42,12 @@ public class ShortestPathDriver {
     }
 
     private static void printUsage() {
-        throw new UnsupportedOperationException("Not Yet Implemented");
-
+        System.out.println("Usage: $java -jar CS499-Shortest-Path.jar filename.obj");
     }
 
+    //prompt user for input
     public static Vertex getSource() {
-        //prompt user for input
-        double x = 0d, y = 0d;
+        Double x = 0d, y = 0d;
         throw new UnsupportedOperationException("Not Yet Implemented");
 
 
@@ -55,9 +55,9 @@ public class ShortestPathDriver {
         //return source;
     }
 
+    //prompt user for input
     public static Vertex getDest() {
-        //prompt user for input
-        double x = 0d, y = 0d;
+        Double x = 0d, y = 0d;
         throw new UnsupportedOperationException("Not Yet Implemented");
 
 

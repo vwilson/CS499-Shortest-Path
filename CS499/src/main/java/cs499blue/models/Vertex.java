@@ -1,4 +1,4 @@
-package cs499.models;
+package cs499blue.models;
 
 /**
  * author: vwilson
@@ -6,9 +6,9 @@ package cs499.models;
  */
 
 public class Vertex {
-    double x, y;
+    Double x, y;
 
-    public Vertex(double x, double y) {
+    public Vertex(Double x, Double y) {
         this.x = x;
         this.y = y;
     }

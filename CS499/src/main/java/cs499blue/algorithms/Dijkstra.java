@@ -1,8 +1,8 @@
-package cs499.algorithms;
+package cs499blue.algorithms;
 
-import cs499.models.Graph;
-import cs499.models.Path;
-import cs499.models.Vertex;
+import cs499blue.models.Graph;
+import cs499blue.models.Path;
+import cs499blue.models.Vertex;
 
 /**
  * author: vwilson

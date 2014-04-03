@@ -1,6 +1,6 @@
-package cs499.models;
+package cs499blue.models;
 
-import cs499.algorithms.Distance;
+import cs499blue.algorithms.Distance;
 
 /**
  * author: vwilson
