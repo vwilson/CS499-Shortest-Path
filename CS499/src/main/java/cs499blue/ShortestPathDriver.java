@@ -42,7 +42,7 @@ public class ShortestPathDriver {
     }
 
     private static void printUsage() {
-        System.out.println("Usage: $java -jar CS499-Shortest-Path.jar filename.obj");
+        System.out.println("Usage: $java -jar CS499-Blue-Shortest-Path.jar filename.obj");
     }
 
     //prompt user for input
