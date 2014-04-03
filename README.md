@@ -8,18 +8,19 @@ Language: Java 7
 TODO:
 
 -Implementation of the following methods:
-  cs499blue
-    .algorithms
-        .Dijkstra.shortestPath(Graph, Vertex, Vertex)
 
-        .Distance.distanceFrom(Vertex, Vertex)
-        .Distance.lengthOf(Edge)
+    cs499blue
+      .algorithms
+          .Dijkstra.shortestPath(Graph, Vertex, Vertex)
 
-    .models
-        .Graph#isConnected(Vertex, Vertex)
+          .Distance.distanceFrom(Vertex, Vertex)
+          .Distance.lengthOf(Edge)
 
-    .ShortestPathFinder#loadObstacleFromFile(String)
-    .ShortestPathFinder#generateGraph()
+      .models
+          .Graph#isConnected(Vertex, Vertex)
 
-    .ShortestPathDriver#getSource()
-    .ShortestPathDriver#getDest()
+      .ShortestPathFinder#loadObstacleFromFile(String)
+      .ShortestPathFinder#generateGraph()
+
+      .ShortestPathDriver#getSource()
+      .ShortestPathDriver#getDest()
