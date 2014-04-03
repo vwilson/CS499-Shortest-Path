@@ -32,6 +32,7 @@ public class ShortestPathFinder {
 
 
     //generates graph by analyzing source, dest, and obstacles
+    //this is the meat and potatoes of the program.
     public Graph generateGraph() {
         theGraph = new Graph();
 
