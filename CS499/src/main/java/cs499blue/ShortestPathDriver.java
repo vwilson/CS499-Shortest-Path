@@ -35,10 +35,7 @@ public class ShortestPathDriver {
 
         Path shortestPath = Dijkstra.shortestPath(g, source, dest);
 
-        for (Vertex v : shortestPath) {
-            System.out.println("Step: " + v);
-        }
-
+        System.out.println(shortestPath);
     }
 
     private static void printUsage() {
