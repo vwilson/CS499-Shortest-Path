@@ -13,9 +13,6 @@ TODO:
       .algorithms
           .Dijkstra.shortestPath(Graph, Vertex, Vertex)
 
-          .Distance.distanceFrom(Vertex, Vertex)
-          .Distance.lengthOf(Edge)
-
       .models
           .Graph#isConnected(Vertex, Vertex)
 
