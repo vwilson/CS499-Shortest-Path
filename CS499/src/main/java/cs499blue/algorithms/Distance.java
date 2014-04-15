@@ -12,11 +12,13 @@ public class Distance {
 
     //returns the distance from a to b
     public static Double distanceFrom(Vertex a, Vertex b) {
-        throw new UnsupportedOperationException("Not Yet Implemented");
+        
+        return Math.sqrt(Math.pow((a.getX()-b.getX()),2) + Math.pow((a.getY() - b.getY()),2));
     }
+    
 
     //returns the length of e
     public static Double lengthOf(Edge e) {
-        throw new UnsupportedOperationException("Not Yet Implemented");
+        return distanceFrom(e.getA(), e.getB());
     }
 }
