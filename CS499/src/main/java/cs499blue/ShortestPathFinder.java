@@ -27,7 +27,7 @@ public class ShortestPathFinder {
 
     //loads obstacles from file, populates the arraylist 'obstacles'
     public void loadObstaclesFromFile(String filename) {
-        throw new UnsupportedOperationException("Not Yet Implemented");
+        throw new UnsupportedOperationException("Will Never Be Implemented");
     }
 
 
@@ -36,7 +36,7 @@ public class ShortestPathFinder {
     public Graph generateGraph() {
         theGraph = new Graph();
 
-        throw new UnsupportedOperationException("Not Yet Implemented");
+        throw new UnsupportedOperationException("Will Never Be Implemented");
 
         //return theGraph;
     }

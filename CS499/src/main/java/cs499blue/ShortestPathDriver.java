@@ -45,7 +45,7 @@ public class ShortestPathDriver {
     //prompt user for input
     public static Vertex getSource() {
         Double x = 0d, y = 0d;
-        throw new UnsupportedOperationException("Not Yet Implemented");
+        throw new UnsupportedOperationException("Will Never Be Implemented");
 
 
         //Vertex source = new Vertex(x,y);
@@ -55,7 +55,7 @@ public class ShortestPathDriver {
     //prompt user for input
     public static Vertex getDest() {
         Double x = 0d, y = 0d;
-        throw new UnsupportedOperationException("Not Yet Implemented");
+        throw new UnsupportedOperationException("Will Never Be Implemented");
 
 
         //Vertex dest = new Vertex(x,y);

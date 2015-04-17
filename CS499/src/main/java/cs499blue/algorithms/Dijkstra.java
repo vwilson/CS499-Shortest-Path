@@ -15,7 +15,7 @@ public class Dijkstra {
     public static Path shortestPath(Graph g, Vertex source, Vertex dest) {
         Path p = new Path();
 
-        throw new UnsupportedOperationException("Not Yet Implemented");
+        throw new UnsupportedOperationException("Will Never Be Implemented");
 
         //return p;
     }
